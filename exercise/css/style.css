@@ -2,14 +2,14 @@ body {
   font-family: Helvetica, Arial, sans-serif;
 }
 
-header{
+header {
   background: rgba(204, 204, 204, 5);
   text-align: center;
   margin: auto;
   padding: 15px;
 }
 
-.actions{
+.actions {
   display: inline-block;
   border: 2px solid black;
   padding: 15px 30px;
@@ -30,7 +30,8 @@ header{
   margin: 0 auto;
 }
 
-h1, h3 {
+h1,
+h3 {
   text-align: center;
 }
 
@@ -48,4 +49,3 @@ h3 {
 dt {
   font-weight: bold;
 }
-
