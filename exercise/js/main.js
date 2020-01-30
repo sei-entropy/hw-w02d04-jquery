@@ -18,7 +18,8 @@ function question1() {
 	$("replaceMe").css("replaceMe", "replaceMe");
 }
 
-$("#button1").on('click', question1);
+//$("#button1").on('click', question1);
+("#button1").click(question1);
 
 /**
  * Question 2:
