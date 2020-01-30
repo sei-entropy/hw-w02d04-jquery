@@ -105,7 +105,7 @@ function question6(){
  */
 
 function question7(){
-$("h1").text("jQuery Ninja");
+$("header > h1").text("jQuery Ninja");
 }
 
 $("#button3").on('click', question7);
