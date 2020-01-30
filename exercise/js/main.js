@@ -88,7 +88,7 @@ function question5(){
 
 function question6(){
 
-	$('blockquotes').html("<span>no quote</span>");
+	$('blockquote').html("<span>no quote</span>");
  }
 
  $("#button2").on('click', question6);
@@ -153,7 +153,7 @@ function question9(){
  */
 function question10(){
 
-	$('p').css({color: "blue", fontFamily: "Georgia"});
+	$('p').css({'color': "blue", 'fontFamily': "Georgia"});
  }
 
  $("#button3").on('click', question10);
