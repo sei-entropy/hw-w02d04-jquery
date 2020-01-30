@@ -84,7 +84,7 @@
  * When button 3 is clicked, change the text in the header's h1 tag to read "jQuery Ninja"
  */
                 $("#button3").click(function() {
-					$("h1").text("jQuery Ninja");
+					$("header > h1").text("jQuery Ninja");
 				});
 /**
  * Question 8:
