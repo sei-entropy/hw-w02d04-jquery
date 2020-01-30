@@ -9,91 +9,140 @@
 //SECTION 1: REPLACE THE SECTIONS THAT SAY REPLACE ME WITH THE CORRECT CODE.
 
 /**
- * Question 1:
+ Question 1:
  * When, button 1 is clicked, select all paragraphs on the page with jQuery, and changed the font color to blue.
  * We've started you off, ONLY replace everything instance of "replaceMe" with correct code.
- */
 
-function question1() {
-	$("replaceMe").css("replaceMe", "replaceMe");
+
+function selectAllParagh {
+	$("p").css("color", "blue");
 }
+$("#button1").on('click', "jQuery");*/
 
-$("#button1").on('click', question1);
 
-/**
+////////////////////////=================///////////////////
+
+/*
  * Question 2:
  * When button 1 is clicked, select all <h2> elements on this page, and change the text to say your name.
  * Uncomment the code below and solve the problem
- */
-
-	// function question2(){
-	// 	$("replaceMe").replaceMe("replaceMe");
+ 
+// function changeName(){
+	// 	$("h2").html("Tahani");
 	// }
 
-	// $("#button1").on('click', question2);
+	// $("#button1").on('click', nameChanged);
+	
+////////////////////////=================///////////////////
 
-/**
  * Question 3:
  * When button 1 is clicked, select the ordered list item that has the class "falseFact".
  * Using jQuery change the content to read "True Fact".
  * Uncomment the code below and solve the problem
- */
+ 
 
-	// function question3(){
-	// 	$("replaceMe").html("replaceMe");
+
+// function listSelection(){
+	// 	$(".falseFact").html("True Fact");
 	// }
 
-	// $("#button1").on('click', question3);
+	// $("#button1").on('click', listSelection);
 
+
+////////////////////////=================///////////////////
 
 //SECTION 2: Now you are on your own. Write the necessary code to accomplish the following.
 
 /**
  * Question 4:
  * When button 2 is clicked, change the background color of the whole page to "pink"
- */
+ 
+
+
+$(document).ready(function(){
+	$("button").click(function(){
+	  $("body").css("background-color", "pink");
+	});
+  });*/
+//tested//
+////////////////////////=================///////////////////
 
 
 
 /**
  * Question 5:
  * When button 2 is clicked, change the color of all h2's to "green"
- */
+ 
+
+
+$(document).ready(function(){
+	$("button2").click(function(){
+	  $("body").css("color", "pink");
+	});
+  });*/
+//tested//
+////////////////////////=================///////////////////
 
 
 
-/**
- * Question 6:
- * When button 2 is clicked, change the html content of all "blockquotes" to be "<span>no quote</span>"
- */
+
+ //* Question 6:
+ //* When button 2 is clicked, change the html content of all "blockquotes" to be "<span>no quote</span>"
+ 
 
 
 //SECTION 3: This section is more difficult. Try your hand at the next 3 questions.
 
+
+
 /**
  * Question 7:
  * When button 3 is clicked, change the text in the header's h1 tag to read "jQuery Ninja"
- */
+ 
+
+$(document).ready(function(){
+	$("button3").click(function(){
+	  $("h1").html("jQuery Ninja");
+	});
+  });
+  */
+
+  //tested//
+////////////////////////=================///////////////////
+
 
 
 /**
  * Question 8:
  * Have the following code execute when button 3 is clicked.
  * $(".city").attr("src", "http://lorempixel.com/g/500/400/food");
- */
+
 
 
 /**
  * Question 9:
  * When button 3 is clicked, select all paragraphs on the page and change the color to blue and font to Georgia.
- */
+ 
 
+$(document).ready(function(){
+  $("button3").click(function(){
+    $("p").css("color", "blue") ("font-family", "Verdana");
+  });
+});
+  
+ //tested//
+  ////////////////////////=================///////////////////
 
 /**
  * Question 10:
  * Try to do Question 9 but with only one jQuery call. $("selector").css({attribute: "value", attribute: "value"})
- */
 
 
+$(document).ready(function(){
+	$("button3").click(function(){
+	  $("p").css("color", "blue") ("font-family", "Verdana");
+	});
+  });
+*/
 
-
+//tested//
