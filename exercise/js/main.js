@@ -89,11 +89,11 @@ $("#button2").on('click', question6);
  * Question 7:
  * When button 3 is clicked, change the text in the header's h1 tag to read "jQuery Ninja"
  */
-// function question7() {
-// 	$("h1").text("jQuery Ninja");
-// }
+//  function changeHeader() {
+//  	$("h1").text("jQuery Ninja");
+//  }
 
-// $("#button3").on('click', question7);
+//  $("#button3").on('click', changeHeader);
 
 
 
@@ -102,11 +102,11 @@ $("#button2").on('click', question6);
  * Have the following code execute when button 3 is clicked.
  * $(".city").attr("src", "http://lorempixel.com/g/500/400/food");
  */
-// function question8() {
+// function changeImg() {
 // 	$(".city").attr("src", "http://lorempixel.com/g/500/400/food");
 // }
 
-// $("#button3").on('click', question8);
+// $("#button3").on('click', changeImg);
 
 
 
@@ -127,11 +127,11 @@ $("#button2").on('click', question6);
  * Question 10:
  * Try to do Question 9 but with only one jQuery call. $("selector").css({attribute: "value", attribute: "value"})
  */
-function question10() {
+function ChangeElmStyle() {
 	$("p").css({
 		"color": "blue",
 		"font-family": "Georgia"
 	});
 }
 
-$("#button3").on('click', question10);
+$("#button3").on('click', ChangeElmStyle);
