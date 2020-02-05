@@ -18,7 +18,7 @@ function question1() {
 	$("p").css("color", "blue");
 }
 
-$("#button1").on('click', question1());
+$("#button1").on('click', question1);
 
 /**
  * Question 2:
@@ -30,7 +30,7 @@ function question2() {
 	$("h2").text("AFnan Basudan");
 }
 
-$("#button1").on('click', question2());
+$("#button1").on('click', question2);
 
 /**
  * Question 3:
@@ -43,7 +43,7 @@ function question3() {
 	$(".falseFact").html("True Fact");
 }
 
-$("#button1").on('click', question3());
+$("#button1").on('click', question3);
 
 
 //SECTION 2: Now you are on your own. Write the necessary code to accomplish the following.
@@ -57,7 +57,7 @@ function question4() {
 	$("body").css("background-color", "pink");
 }
 
-$("#button2").on('click', question4());
+$("#button2").on('click', question4);
 
 
 /**
@@ -69,7 +69,7 @@ function question5() {
 	$("h2").css("color", "green");
 }
 
-$("#button2").on("click", question5());
+$("#button2").on("click", question5);
 
 
 
@@ -84,7 +84,7 @@ function question6() {
 
 }
 
-$("#button2").on("click", question6());
+$("#button2").on("click", question6);
 
 
 //SECTION 3: This section is more difficult. Try your hand at the next 3 questions.
@@ -103,7 +103,7 @@ function question7() {
 
 }
 
-$("#button3").on("click", question7());
+$("#button3").on("click", question7);
 
 
 
@@ -120,7 +120,7 @@ function question8() {
 
 }
 
-$("#button3").on("click", question8());
+$("#button3").on("click", question8);
 
 /**
  * Question 9:
@@ -137,7 +137,7 @@ function question9() {
 
 
 
-$("#button3").on("click", question9());
+$("#button3").on("click", question9);
 
 
 
@@ -153,7 +153,12 @@ function question10() {
 		"font-style": "Georgia"
 	})
 
-
 }
 
-$("#button3").on("click", question10());
+
+
+$("#button3").on("click", question10);
+
+
+
+
