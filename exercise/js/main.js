@@ -27,7 +27,7 @@ $("#button1").on('click', question1);
  */
 
 	function question2(){
-	 	$("h2").after("say your name");
+	 	$("h2").text("say your name");
 	 }
 
  $("#button1").on('click', question2);
@@ -40,7 +40,7 @@ $("#button1").on('click', question1);
  */
 
 	function question3(){
-	$(".falseFact").html('').append('falseFact');
+	$(".falseFact").html('falseFact');
 	 }
 
 	 $("#button1").on('click', question3);
