@@ -119,8 +119,8 @@ $("#button3").click(question8);
  */
 
 function question9() {
-	$(".wrapper").css("color", "blue");
-	$(".wrapper").css("font-family", "Georgia");
+	$("p").css("color", "blue");
+	$("p").css("font-family", "Georgia");
 
 };
 
@@ -130,7 +130,7 @@ $("#button3").click(question9);
  * Try to do Question 9 but with only one jQuery call. $("selector").css({attribute: "value", attribute: "value"})
  */
 
-function question9() {
+function question10() {
 	
 	$(".wrapper").css({color: "blue", fontFamily: "Georgia"})
 
